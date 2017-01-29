@@ -13,7 +13,7 @@ The complete project is available on two platforms.
 
 The web application is hosted [here](http://antiterror.pe.hu/).
 
-The hardcoded parts have been uploaded in [this](#) directory of repo.
+The hardcoded parts have been uploaded in [this](https://github.com/mandeep-vratesh/FunsteinZK/tree/master/web) directory of repo.
 
 The complete project has 4 major perspectives
 - [x] [User perspective](http://antiterror.pe.hu/) : focused on raising awareness.
@@ -27,4 +27,4 @@ The complete project has 4 major perspectives
 
 The .apk file is available [here](http://antiterror.pe.hu/app.zip) 
 
-The hardcoded parts have been uploaded in [this](#) directory of repo.
+The hardcoded parts have been uploaded in [this](https://github.com/mandeep-vratesh/FunsteinZK/tree/master/android/Antiterror) directory of repo.
