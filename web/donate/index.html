@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>DONATE</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-home.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      *, *:after, *:before {
+  box-sizing: border-box; 
+}
+html{
+  min-height:100%;
+  background-image: url("images/background.jpg");
+  
+}
+
+ul, li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.diamonds{
+  font-size:1em;
+  width: 46.875em;
+  margin: 0 auto;
+  padding: 4.500em 0 0 ;
+}
+
+.diamonds li {
+	perspective: 1000;
+  width: 11.125em;
+  height: 11.125em;
+  display: block;
+  float:left;
+  margin-left: 4.500em;
+}
+
+/*:nth-child recipes FTW!*/
+.diamonds li:nth-child(2) ~ li{margin-top: -3.313em;}
+
+.diamonds li:nth-child(5n+1){
+  margin-left: 10.063em;
+}
+
+.diamonds li:nth-child(6n-9){
+  margin-left: 2.250em;
+}
+
+/*the flipping thingy*/
+.flipper {
+  display:block;
+  width:100%;
+  height:100%;
+  transform-origin: center center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  color:#3a66b3;
+}
+
+/*animate on hover*/
+.flipper:hover {
+  transform:
+    rotateX(0deg)
+    rotateY(180deg)
+    rotateZ(0deg);
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform:
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(45deg);
+  border: 1px solid #DBDBDB;
+}
+
+.back {
+  background: #DBDBDB;
+  transform:
+    rotateX(0deg)
+    rotateY(180deg)
+    rotateZ(45deg);
+}
+
+.front img{
+  width:140.5%;
+  height:auto;
+  transform:
+    translateX(-14.5%)
+    translateY(-14.5%)
+    translateZ(0)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(-45deg);
+}
+
+.back span{
+  display:block;
+  width:100%;
+  height:100%;
+  line-height:11.125em;
+  text-align:center;
+    transform:
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(-45deg);
+}
+
+#mainhead, #subhead{
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+
+#mainhead{
+  font-size: 50px;
+  font-weight: bold;  
+}
+
+#subhead{
+  font-size: 25px;
+}
+
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+    
+  </head>
+
+  <body>
+    <p id="mainhead">DONATE</p>
+    <p id="subhead">You Can Donate The Following Listed Oraganisations Who Are Fighting Terrorism</p>
+    <div id="home">
+        <a class="button" href="http://www.antiterror.pe.hu" role="button">
+          <span>home</span>
+          <div class="icon">
+            <i class="fa fa-home"></i>
+          </div>
+        </a>
+    </div>
+
+
+    <ul class="diamonds">
+    <li>
+      <a href="http://www.gatohq.com/" class="flipper">
+        <div class="front">
+          <img src="images/ngo1.jpg" alt="Global Anti Terrorism Organisation">
+        </div>
+        <div class="back">
+          <span>Global Anti Terrorism Organisation</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="flipper">
+        <div class="front">
+          <img src="images/ngo2.jpg" alt="Cerified Anti-terrorism Specialist">
+        </div>
+        <div class="back">
+          <span>Cerified Anti-terrorism Specialist</span>
+        </div>
+      </a>
+    </li><li>
+      <a href="deusex.wikia.com/wiki/United_Nations_Anti-Terrorist_Coalition" class="flipper">
+        <div class="front">
+          <img src="images/ngo3.jpg" alt="United Nations Anti-Terrorist Coalition">
+        </div>
+        <div class="back">
+          <span>United Nations Anti-Terrorist Coalition</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="http://www.onefamilytogether.org/" class="flipper">
+        <div class="front">
+          <img src="images/ngo4.png" alt="onefamilytogether">
+        </div>
+        <div class="back">
+          <span>One Family Together</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="http://www.ifavt.org" class="flipper">
+        <div class="front">
+          <img src="images/ngo5.png" alt="Fédération Internationale des Associations de Victimes du Terrorisme">
+        </div>
+        <div class="back">
+          <span>Fédération Internationale des Associations de Victimes du Terrorisme</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://covite.org/" class="flipper">
+        <div class="front">
+          <img src="images/ngo6.jpg" alt="Terrorism Prevention Org">
+        </div>
+        <div class="back">
+          <span>Terrorism Prevention Org</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="http://antiterrorrismsforce.com" class="flipper">
+        <div class="front">
+          <img src="images/ngo7.png" alt="Anti-Terrorism Force">
+        </div>
+        <div class="back">
+          <span>Anti-Terrorism Force</span>
+        </div>
+      </a>
+    </li>
+</ul>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

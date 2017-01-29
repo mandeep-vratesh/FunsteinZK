@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\drawable\\report.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\danger.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\drawable\\danger.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\drawable\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\donate.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\drawable\\donate.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\drawable\\alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\drawable\\common_signin_btn_text_dark.xml"
+    }
+]

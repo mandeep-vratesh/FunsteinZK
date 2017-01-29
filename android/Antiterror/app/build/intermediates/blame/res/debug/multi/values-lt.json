@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lt\\values-lt.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 129,
+                    "endOffset": 180
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1097,
+                        "endColumn": 129,
+                        "endOffset": 1222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 185,
+                    "endColumn": 159,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 159,
+                        "endOffset": 1092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endColumn": 130,
+                    "endOffset": 471
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 806,
+                        "endColumn": 130,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 476,
+                    "endColumn": 129,
+                    "endOffset": 601
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 676,
+                        "endColumn": 129,
+                        "endOffset": 801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 606,
+                    "endColumn": 179,
+                    "endOffset": 781
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 179,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 786,
+                    "endColumn": 198,
+                    "endOffset": 980
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 198,
+                        "endOffset": 671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 985,
+                    "endColumn": 126,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 126,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 141,
+                    "endOffset": 1249
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1522,
+                        "endColumn": 141,
+                        "endOffset": 1659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1254,
+                    "endColumn": 237,
+                    "endOffset": 1487
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1792,
+                        "endColumn": 237,
+                        "endOffset": 2025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1492,
+                    "endColumn": 127,
+                    "endOffset": 1615
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1664,
+                        "endColumn": 127,
+                        "endOffset": 1787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1620,
+                    "endColumn": 110,
+                    "endOffset": 1726
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2030,
+                        "endColumn": 110,
+                        "endOffset": 2136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1731,
+                    "endColumn": 160,
+                    "endOffset": 1887
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1361,
+                        "endColumn": 160,
+                        "endOffset": 1517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1892,
+                    "endColumn": 133,
+                    "endOffset": 2021
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1227,
+                        "endColumn": 133,
+                        "endOffset": 1356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2026,
+                    "endColumn": 91,
+                    "endOffset": 2113
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2141,
+                        "endColumn": 91,
+                        "endOffset": 2228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2118,
+                    "endColumn": 111,
+                    "endOffset": 2225
+                },
+                "from": {
+                    "file": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\3.1.36\\res\\values-lt\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2233,
+                        "endColumn": 111,
+                        "endOffset": 2340
+                    }
+                }
+            }
+        ]
+    }
+]

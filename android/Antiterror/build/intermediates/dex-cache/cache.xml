@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.0.0_13b111519afad8de2b78ff691e314d667390128b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MANDEEP\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0_48360728b19bc2ecd8701c2680758ceee0bd672b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_bb351b129735eb74f4ce978987fd2dc94140156b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MANDEEP\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\pre-dexed\debug\library-1.0.19_201deb46425ac5c5bb855fe4759ee596fbe7035e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.36\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7421dcb3ed9db47a59ec618e2398f0df65c2d480">
+        <dex dex="C:\Users\MANDEEP\AndroidStudioProjects\Antiterror\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-3.1.36_bbdb401c6af753b08001e27e33bd5b4beffa8b44.jar" />
+    </item>
+
+</items>

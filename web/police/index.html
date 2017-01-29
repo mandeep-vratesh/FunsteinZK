@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+  <head>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <meta charset="UTF-8">
+    <title>Police</title>
+    <style type="text/css">
+    *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  background: #eee;
+}
+
+ul.menubar {
+  background: white;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  list-style: none;
+  font-size: 14px;
+  padding: 0 10px;
+}
+ul.menubar > li {
+  display: inline-block;
+  position: relative;
+}
+ul.menubar > li > a {
+  color: black;
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+ul.menubar > li > a:hover {
+  background: #29a7f5;
+  color: white;
+}
+ul.menubar > li.is-selected > a {
+  background: #29a7f5;
+  color: white;
+}
+ul.menubar > li.is-selected > ul {
+  display: block;
+}
+#main-content{
+  position: fixed;
+  left: 2%;
+  top:10%;
+  width: 70%;
+  height: 100%;
+  background: #aaa;
+}
+#list-content{
+  position: fixed;
+  right: 2%;
+  top: 10%;
+  width: 25%;
+  height: 90%;
+  background: #aaa;
+  overflow: scroll;
+}
+</style> 
+  </head>
+
+  <body>
+
+    <ul class="menubar">
+     <li id="menu-danger-zone">
+          <a href="#" title="add dangerous regions">Add a danger zone</a>
+     </li>
+     <li id="menu-alert">
+         <a href="#" title="add alerts for the app users">Add Alert</a>
+      </li>
+      <li id="menu-suspecious">
+          <a href="#" title="see suspicious mails">Check Suspecious Mails</a>
+      </li>
+    </ul>
+    <div id="main-content"></div>
+    <div id="list-content"></div>
+
+<script>
+$("#menu-danger-zone").click(function(){
+  $("#list-content").load("listDangerZone.php"); 
+  $("#main-content").load("addDangerZone.html");
+ 
+});
+
+$("#menu-alert").click(function(){
+  $("#list-content").load("listAlert.php");
+  $("#main-content").load("addAlert.html");
+});
+/*
+$("#menu-suspicious").click(function(){
+  $("#main-content")
+  $("list-content")
+});
+*/
+</script>    
+  </body>
+</html>

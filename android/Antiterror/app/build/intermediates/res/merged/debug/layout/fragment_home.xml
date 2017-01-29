@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is terrorism ?"
+            android:id="@+id/topic1"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:elevation="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/what_is_terrorism"
+            android:id="@+id/desc1"
+            android:layout_below="@+id/topic1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#888"
+            android:elevation="3dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some Safety Guidelines"
+            android:id="@+id/topic2"
+            android:layout_below="@+id/desc1"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:elevation="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/safety_guidelines"
+            android:id="@+id/desc2"
+            android:layout_below="@id/topic2"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:elevation="3dp"
+            android:background="#888" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proactive Preparation"
+            android:id="@+id/topic3"
+            android:layout_below="@id/desc2"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proactive_preparation"
+            android:id="@+id/desc3"
+            android:layout_below="@id/topic3"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:elevation="3dp"
+            android:background="#888" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do's and Don'ts"
+            android:id="@+id/topic4"
+            android:layout_below="@id/desc3"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dos_and_donts"
+            android:id="@+id/desc4"
+            android:layout_below="@id/topic4"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:elevation="3dp"
+            android:background="#888" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What to Do If a Terrorism Event Occurs"
+            android:id="@+id/topic5"
+            android:layout_below="@id/desc4"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survuival_guidelines"
+            android:id="@+id/desc5"
+            android:layout_below="@id/topic5"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:elevation="3dp"
+            android:background="#888" />
+    </RelativeLayout>
+</ScrollView>

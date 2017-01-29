@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_location_info.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\fragment_location_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_suspecious.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\fragment_suspecious.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_alert.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\fragment_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_donate.xml",
+        "source": "C:\\Users\\MANDEEP\\AndroidStudioProjects\\Antiterror\\app\\src\\main\\res\\layout\\fragment_donate.xml"
+    }
+]

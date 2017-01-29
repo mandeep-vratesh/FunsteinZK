@@ -1,0 +1,33 @@
+/* By DannyMo */
+nav {
+  margin: 2% 0 0 20%;
+  background-color: #294E79;
+  width: 100%;
+  border-radius: 0 20px;
+  -webkit-box-shadow: 2px 2px 4px #777;
+  -moz-box-shadow: 2px 2px 4px #777;
+  box-shadow: 2px 2px 4px #777;
+  overflow: hidden;
+  /* prevents the first/last nav item to disturbe border-radius of the nav on hover */
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: White;
+  font-family: Arial;
+  border-bottom: 1px solid #3D5E84;
+  -webkit-transition: background-color 0.3s ease, padding 0.3s ease;
+  -moz-transition: background-color 0.3s ease, padding 0.3s ease;
+  -ms-transition: background-color 0.3s ease, padding 0.3s ease;
+  -o-transition: background-color 0.3s ease, padding 0.3s ease;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+nav a:hover, nav a.active {
+  background-color: #3D5E84;
+  border-bottom: 1px solid #46688F;
+  padding-left: 35px;
+}
+nav a.active {
+  font-weight: bold;
+}

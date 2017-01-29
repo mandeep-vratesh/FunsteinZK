@@ -1,0 +1,85 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+	var Latitude,Longitude,range,address,pos;
+	function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+		    zoom: 17,
+    	    center: {lat:19.0295535 , lng:76.8657515}
+        });
+        var infoWindow = new google.maps.InfoWindow({map: map});
+     	if(navigator.geolocation){
+       		
+       		navigator.geolocation.getCurrentPosition(function(position) {
+      			pos = {
+       				lat: position.coords.latitude,
+       				lng: position.coords.longitude
+       			};
+    		  	infoWindow.setPosition(pos);
+      			infoWindow.close();
+      			map.setCenter(pos);
+    		});
+    	}
+    	alert("Click on the map to mark it danger");
+    	google.maps.event.addListener(map, 'click', function(e) {
+    		
+    		placeMarkerAndPanTo(e.latLng, map);
+  		});
+		
+	}
+	
+	function placeMarkerAndPanTo(latLng, map) {
+  		var marker = new google.maps.Marker({
+    		position: latLng,
+    		map: map
+  		});
+  		
+		var geocoder = geocoder = new google.maps.Geocoder();
+        geocoder.geocode({ 'latLng': latLng }, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                if (results[1]) {
+                    address=results[1].formatted_address; 
+                }
+            }
+        });
+        range = prompt("Enter the range");
+        
+  			
+
+		///alert(latLng.lat());
+    	//alert(latLng.lng());
+    	//alert(range);
+    	alert(address);
+    	$.ajax({
+					type:"POST",
+					url:"add_danger_zone.php",
+					data:'latitude='+latLng.lat()+'&longitude='+latLng.lng()+'&range='+range+'&address='+address,
+					cache:false,
+					success:function(data){
+						$("#list-content").load("listDangerZone.php");
+						}//result fnction close
+		});
+	}
+
+	
+
+	</script>
+	<style type="text/css">
+		html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100%;
+}
+	</style>
+</head>
+<body>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoQjwJMFW5j9eQWzzEs5mKa7mxX-3tRdw&callback=initMap">
+</script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</body>
